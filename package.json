@@ -1,6 +1,6 @@
 {
   "name": "@mkusaka/md-ref-list",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "repository": "https://github.com/mkusaka/md-ref-list.git",
   "author": "mkusaka <hinoshita1992@gmail.com>",
