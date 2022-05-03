@@ -1,0 +1,35 @@
+{
+  "private": true,
+  "name": "@mkusaka/md-ref-list",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mkusaka/md-ref-list.git",
+  "author": "mkusaka <hinoshita1992@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@textlint/ast-node-types": "^12.1.1",
+    "@textlint/markdown-to-ast": "^12.1.1",
+    "chalk": "^5.0.1",
+    "domutils": "^3.0.1",
+    "fast-glob": "^3.2.11",
+    "htmlparser2": "^8.0.1",
+    "node-fetch": "^3.2.4",
+    "yargs": "^17.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16",
+    "@types/yargs": "^17.0.10",
+    "@vercel/ncc": "^0.33.4",
+    "prettier": "^2.6.2",
+    "typescript": "^4.6.4"
+  },
+  "scripts": {
+    "n": "ncc run"
+  },
+  "bin": {
+    "mrl": "bin/mrl"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

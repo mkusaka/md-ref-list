@@ -1,2 +1,7 @@
 # md-ref-list
-Glob all list of links inside markdown &amp; fetch its title &amp; generate markdown list.
+Glob all list of links inside markdown & fetch its title & generate markdown list.
+
+# install
+
+# links
+- [a](http://example.com)
