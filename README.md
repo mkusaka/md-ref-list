@@ -3,14 +3,8 @@ Glob all list of links inside markdown & fetch its title & generate markdown lis
 
 # install
 
-npm
 ```bash
-npm i -g @mkuska/md-ref-list
-```
-
-yarn
-```bash
-yarn global add @mkuska/md-ref-list
+pnpm add -g @mkusaka/md-ref-list
 ```
 
 # usage
